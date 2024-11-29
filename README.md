@@ -1,16 +1,39 @@
+# Hedgehog Test
+
 ## Table of Contents
 - [Task](#task)
+- [Description](#description)
+- [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
+- [Usage](#usage)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-## Task 
-[here](https://github.com/gadiim/HedgehokTest/blob/main/task.txt)
+## Task
+You can find the task details [here](https://github.com/gadiim/HedgehokTest/blob/main/task.txt).
+
+## Description
+This project is a console-based application built with C# using Visual Studio. The program simulates the management of hedgehog populations across different colonies, performing population adjustments based on user input. The goal is to find the number of rounds needed to balance the populations of different colonies. The program also includes input validation and error handling to ensure proper interaction.
+
+### Key Features:
+- Input population sizes for three hedgehog colonies.
+- Simulate population balance based on user-selected target colonies.
+- Handle edge cases and invalid inputs effectively.
+- Display results at the end of the simulation.
+
+## Technologies Used
+- **C#**: The main programming language used to build this application.
+- **Visual Studio 2022**: The IDE used for development and debugging.
+- **Git**: For version control.
 
 ## Getting Started
 
-1. Clone the repository.
-2. Open the solution in Visual Studio.
-3. Build and run the project.
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/gadiim/HedgehokTest.git
+   ```
 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project. See the LICENSE file for more details.
