@@ -1,6 +1,6 @@
 - [ENG](#henghog_test_(c#))
 
-| ##HEDGEHOG TEST |
+| ## HEDGEHOG TEST |
 |------------------------|
 | In the forest, there is a population of hedgehogs. These hedgehogs can only be one of three colors: red, green, or blue. When two hedgehogs of different colors meet, they can change their color to the third one (for example, if a red and a blue hedgehog meet, both can become green). There is no other way for hedgehogs to change their color (i.e., when a red and a blue hedgehog meet, they cannot both turn red, they can only turn into the third color). The hedgehogs want to become one specific color. They can plan their meetings to achieve this goal. The hedgehogs want to know how quickly they can reach this goal (if it is even possible). |
 | **Input:** The color is represented by an integer: 0 for red, 1 for green, and 2 for blue. The initial population of hedgehogs is given as an array of three integers corresponding to the colors (for example, [8, 1, 9] means 8 red, 1 green, and 9 blue hedgehogs). All numbers are non-negative, and their sum is between 1 and int.MaxValue (the maximum possible value for an int type). The desired color is an integer from 0 to 2. |
