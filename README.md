@@ -12,14 +12,14 @@
 ## Description
 This project is a console-based application built with C# using Visual Studio. The program simulates the management of hedgehog populations across different colonies, performing population adjustments based on user input. The goal is to find the number of rounds needed to balance the populations of different colonies. The program also includes input validation and error handling to ensure proper interaction.
 
-## Task
-You can find the task details [here](https://github.com/gadiim/HedgehokTest/blob/main/TASK.md).
-
 ### Key Features:
 - Input population sizes for three hedgehog colonies.
 - Simulate population balance based on user-selected target colonies.
 - Handle edge cases and invalid inputs effectively.
 - Display results at the end of the simulation.
+
+## Task
+You can find the task details [here](https://github.com/gadiim/HedgehokTest/blob/main/TASK.md).
 
 ## Technologies Used
 - **C#**: The main programming language used to build this application.
