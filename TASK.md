@@ -1,18 +1,11 @@
-| *HEDGEHOG TEST (C#)* |
+| **HEDGEHOG TEST (C#)** |
 |------------------------|
 | In the forest, there is a population of hedgehogs. These hedgehogs can only be one of three colors: red, green, or blue. When two hedgehogs of different colors meet, they can change their color to the third one (for example, if a red and a blue hedgehog meet, both can become green). There is no other way for hedgehogs to change their color (i.e., when a red and a blue hedgehog meet, they cannot both turn red, they can only turn into the third color). The hedgehogs want to become one specific color. They can plan their meetings to achieve this goal. The hedgehogs want to know how quickly they can reach this goal (if it is even possible). |
-| ***Input:*** The color is represented by an integer: 0 for red, 1 for green, and 2 for blue. The initial population of hedgehogs is given as an array of three integers corresponding to the colors (for example, [8, 1, 9] means 8 red, 1 green, and 9 blue hedgehogs). All numbers are non-negative, and their sum is between 1 and int.MaxValue (the maximum possible value for an int type). The desired color is an integer from 0 to 2. |
+| **Input:** The color is represented by an integer: 0 for red, 1 for green, and 2 for blue. The initial population of hedgehogs is given as an array of three integers corresponding to the colors (for example, [8, 1, 9] means 8 red, 1 green, and 9 blue hedgehogs). All numbers are non-negative, and their sum is between 1 and int.MaxValue (the maximum possible value for an int type). The desired color is an integer from 0 to 2. |
 | **Output:** The program should return the minimum number of meetings required to change all hedgehogs into the specified color, or -1 if it is impossible (e.g., if all hedgehogs are initially the same color). |
 
 | **ЇЖАЧОК ТЕСТ (C#)** |
 |----------------------|
-|В лісі живе популяція їжаків. Їжачки тут можуть бути лише одного з трьох кольорів - червоного, зеленого та синього. Коли зустрічаються два їжачки різних кольорів, вони можуть змінити свій колір на третій (тобто, коли зустрічаються червоний і синій їжачок, вони обидва можуть стати зеленими). Іншого способу змінити свій колір у їжаків немає (зокрема, коли зустрічаються червоний і синій їжачок, вони не можуть стати обоє ервоними, можна припустити лише третій колір).
-Їжачки хочуть стати одного певного кольору. Вони можуть планувати свої зустрічі, щоб досягти цієї мети. Їжачки хочуть знати, як швидко можна досягти своєї мети (якщо її взагалі можна досягнути).
-|
-|
-Вхідні дані: Колір задано цілим числом, 0 - червоний, 1 - зелений, 2 - синій. Початкова популяція їжаків задана у вигляді масиву з трьох цілих чисел з індексом, що відповідає кольору (тобто [8, 1, 9] означає 8 червоних, 1 зелених і 9 синіх їжачка). Всі числа невід'ємні, їх сума знаходиться між 1 та int.MaxValue (максимально можливе значення для типу int, іншими мовами). Бажаний колір задається цілим числом від 0 до 2.
-|
-|
-Виведіть:
-Код повинен повернути мінімальну кількість зустрічей, необхідних для зміни всіх їжачків у заданий колір, або -1, якщо це неможливо (наприклад, якщо всі їжачки спочатку одного кольору).
-|
+|В лісі живе популяція їжаків. Їжачки тут можуть бути лише одного з трьох кольорів - червоного, зеленого та синього. Коли зустрічаються два їжачки різних кольорів, вони можуть змінити свій колір на третій (тобто, коли зустрічаються червоний і синій їжачок, вони обидва можуть стати зеленими). Іншого способу змінити свій колір у їжаків немає (зокрема, коли зустрічаються червоний і синій їжачок, вони не можуть стати обоє ервоними, можна припустити лише третій колір). Їжачки хочуть стати одного певного кольору. Вони можуть планувати свої зустрічі, щоб досягти цієї мети. Їжачки хочуть знати, як швидко можна досягти своєї мети (якщо її взагалі можна досягнути). |
+| **Вхідні дані:** Колір задано цілим числом, 0 - червоний, 1 - зелений, 2 - синій. Початкова популяція їжаків задана у вигляді масиву з трьох цілих чисел з індексом, що відповідає кольору (тобто [8, 1, 9] означає 8 червоних, 1 зелених і 9 синіх їжачка). Всі числа невід'ємні, їх сума знаходиться між 1 та int.MaxValue (максимально можливе значення для типу int, іншими мовами). Бажаний колір задається цілим числом від 0 до 2. |
+| **Виведіть:** Код повинен повернути мінімальну кількість зустрічей, необхідних для зміни всіх їжачків у заданий колір, або -1, якщо це неможливо (наприклад, якщо всі їжачки спочатку одного кольору). |
