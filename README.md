@@ -27,7 +27,6 @@ You can find the task details [here](https://github.com/gadiim/HedgehokTest/blob
 - **Git**: For version control.
 
 ## Getting Started
-
 To get started with this project, follow these steps:
 
 1. Clone the repository to your local machine:
@@ -41,14 +40,12 @@ To get started with this project, follow these steps:
 5. Follow the on-screen instructions to input population sizes for the hedgehog colonies and perform the necessary actions.
 
 ## Usage
-
 1. When you run the program, you will be prompted to enter the population of three hedgehog colonies.
 2. After that, you will select which colony should be the target for population balancing.
 3. The program will simulate population transfers until the colonies are balanced or the operation is deemed impossible.
 4. The final number of rounds and the state of the colonies will be displayed at the end of the simulation.
 
 ## License
-
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project. See the LICENSE file for more details.
 MIT License
 ```plaintext
@@ -60,6 +57,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ```
 
 ## Acknowledgements
-
 - This project was developed as part of a personal learning exercise.
 - Special thanks to the Visual Studio team and the C# community for their excellent documentation and tools. 😊
